@@ -1,0 +1,7 @@
+﻿  Crossroad1.cpp
+c:\users\neil song\onedrive\documents\visual studio projects\usaco_bronze_and_silver_problems\crossroad1\crossroad1.cpp(23): warning C4018: '<': signed/unsigned mismatch
+c:\users\neil song\onedrive\documents\visual studio projects\usaco_bronze_and_silver_problems\crossroad1\crossroad1.cpp(26): warning C4018: '<': signed/unsigned mismatch
+c:\users\neil song\onedrive\documents\visual studio projects\usaco_bronze_and_silver_problems\crossroad1\crossroad1.cpp(39): warning C4018: '<': signed/unsigned mismatch
+c:\users\neil song\onedrive\documents\visual studio projects\usaco_bronze_and_silver_problems\crossroad1\crossroad1.cpp(41): warning C4018: '<': signed/unsigned mismatch
+c:\users\neil song\onedrive\documents\visual studio projects\usaco_bronze_and_silver_problems\crossroad1\crossroad1.cpp(55): warning C4018: '<': signed/unsigned mismatch
+  Crossroad1.vcxproj -> C:\Users\Neil Song\OneDrive\Documents\Visual Studio Projects\USACO_Bronze_and_Silver_Problems\Debug\Crossroad1.exe

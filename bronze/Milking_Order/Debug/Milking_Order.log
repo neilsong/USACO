@@ -1,0 +1,5 @@
+﻿  Milking_Order.cpp
+c:\users\osx_h\onedrive\documents\visual studio projects\usaco_bronze_and_silver_problems\milking_order\milking_order.cpp(12): warning C4018: '<': signed/unsigned mismatch
+c:\users\osx_h\onedrive\documents\visual studio projects\usaco_bronze_and_silver_problems\milking_order\milking_order.cpp(14): warning C4018: '<': signed/unsigned mismatch
+c:\users\osx_h\onedrive\documents\visual studio projects\usaco_bronze_and_silver_problems\milking_order\milking_order.cpp(24): warning C4018: '<': signed/unsigned mismatch
+  Milking_Order.vcxproj -> C:\Users\OSX_H\OneDrive\Documents\Visual Studio Projects\USACO_Bronze_and_Silver_Problems\Debug\Milking_Order.exe

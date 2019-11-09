@@ -1,0 +1,4 @@
+﻿  HW4_Problem_A.cpp
+c:\users\osx_h\source\repos\usaco_bronze_and_silver_problems\hw4_problem_a\hw4_problem_a.cpp(15): warning C4018: '<': signed/unsigned mismatch
+c:\users\osx_h\source\repos\usaco_bronze_and_silver_problems\hw4_problem_a\hw4_problem_a.cpp(18): warning C4018: '<': signed/unsigned mismatch
+  HW4_Problem_A.vcxproj -> C:\Users\OSX_H\source\repos\USACO_Bronze_and_Silver_Problems\Debug\HW4_Problem_A.exe

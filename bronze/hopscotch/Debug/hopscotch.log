@@ -1,0 +1,11 @@
+﻿  hopscotch.cpp
+c:\users\osx_h\onedrive\documents\visual studio projects\usaco_bronze_and_silver_problems\hopscotch\hopscotch.cpp(11): warning C4018: '<': signed/unsigned mismatch
+c:\users\osx_h\onedrive\documents\visual studio projects\usaco_bronze_and_silver_problems\hopscotch\hopscotch.cpp(12): warning C4018: '<': signed/unsigned mismatch
+c:\users\osx_h\onedrive\documents\visual studio projects\usaco_bronze_and_silver_problems\hopscotch\hopscotch.cpp(24): warning C4018: '<': signed/unsigned mismatch
+c:\users\osx_h\onedrive\documents\visual studio projects\usaco_bronze_and_silver_problems\hopscotch\hopscotch.cpp(26): warning C4018: '<': signed/unsigned mismatch
+c:\users\osx_h\onedrive\documents\visual studio projects\usaco_bronze_and_silver_problems\hopscotch\hopscotch.cpp(31): warning C4018: '<': signed/unsigned mismatch
+c:\users\osx_h\onedrive\documents\visual studio projects\usaco_bronze_and_silver_problems\hopscotch\hopscotch.cpp(32): warning C4018: '<': signed/unsigned mismatch
+c:\users\osx_h\onedrive\documents\visual studio projects\usaco_bronze_and_silver_problems\hopscotch\hopscotch.cpp(34): warning C4018: '<': signed/unsigned mismatch
+c:\users\osx_h\onedrive\documents\visual studio projects\usaco_bronze_and_silver_problems\hopscotch\hopscotch.cpp(36): warning C4018: '<': signed/unsigned mismatch
+  LINK : C:\Users\OSX_H\OneDrive\Documents\Visual Studio Projects\USACO_Bronze_and_Silver_Problems\Debug\hopscotch.exe not found or not built by the last incremental link; performing full link
+  hopscotch.vcxproj -> C:\Users\OSX_H\OneDrive\Documents\Visual Studio Projects\USACO_Bronze_and_Silver_Problems\Debug\hopscotch.exe

@@ -1,0 +1,8 @@
+﻿  HPS.cpp
+c:\users\neil song\onedrive\documents\visual studio projects\usaco_bronze_and_silver_problems\hps\hps.cpp(23): warning C4018: '<': signed/unsigned mismatch
+c:\users\neil song\onedrive\documents\visual studio projects\usaco_bronze_and_silver_problems\hps\hps.cpp(24): warning C4018: '<': signed/unsigned mismatch
+c:\users\neil song\onedrive\documents\visual studio projects\usaco_bronze_and_silver_problems\hps\hps.cpp(31): warning C4018: '<': signed/unsigned mismatch
+c:\users\neil song\onedrive\documents\visual studio projects\usaco_bronze_and_silver_problems\hps\hps.cpp(32): warning C4018: '<': signed/unsigned mismatch
+c:\users\neil song\onedrive\documents\visual studio projects\usaco_bronze_and_silver_problems\hps\hps.cpp(39): warning C4018: '<': signed/unsigned mismatch
+c:\users\neil song\onedrive\documents\visual studio projects\usaco_bronze_and_silver_problems\hps\hps.cpp(110): warning C4018: '<': signed/unsigned mismatch
+  HPS.vcxproj -> C:\Users\Neil Song\OneDrive\Documents\Visual Studio Projects\USACO_Bronze_and_Silver_Problems\Debug\HPS.exe

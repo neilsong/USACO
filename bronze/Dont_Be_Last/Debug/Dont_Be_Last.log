@@ -1,0 +1,7 @@
+﻿  Dont_Be_Last.cpp
+c:\users\neil song\onedrive\documents\visual studio projects\usaco_bronze_and_silver_problems\dont_be_last\dont_be_last.cpp(23): warning C4018: '<': signed/unsigned mismatch
+c:\users\neil song\onedrive\documents\visual studio projects\usaco_bronze_and_silver_problems\dont_be_last\dont_be_last.cpp(37): warning C4018: '<': signed/unsigned mismatch
+c:\users\neil song\onedrive\documents\visual studio projects\usaco_bronze_and_silver_problems\dont_be_last\dont_be_last.cpp(44): warning C4018: '<': signed/unsigned mismatch
+c:\users\neil song\onedrive\documents\visual studio projects\usaco_bronze_and_silver_problems\dont_be_last\dont_be_last.cpp(60): warning C4018: '<': signed/unsigned mismatch
+c:\users\neil song\onedrive\documents\visual studio projects\usaco_bronze_and_silver_problems\dont_be_last\dont_be_last.cpp(72): warning C4018: '<': signed/unsigned mismatch
+  Dont_Be_Last.vcxproj -> C:\Users\Neil Song\OneDrive\Documents\Visual Studio Projects\USACO_Bronze_and_Silver_Problems\Debug\Dont_Be_Last.exe

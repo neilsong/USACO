@@ -1,0 +1,8 @@
+﻿  badmilk.cpp
+c:\users\neil song\onedrive\documents\visual studio projects\usaco_bronze_and_silver_problems\badmilk\badmilk.cpp(39): warning C4018: '<': signed/unsigned mismatch
+c:\users\neil song\onedrive\documents\visual studio projects\usaco_bronze_and_silver_problems\badmilk\badmilk.cpp(57): warning C4018: '<': signed/unsigned mismatch
+c:\users\neil song\onedrive\documents\visual studio projects\usaco_bronze_and_silver_problems\badmilk\badmilk.cpp(66): warning C4018: '<': signed/unsigned mismatch
+c:\users\neil song\onedrive\documents\visual studio projects\usaco_bronze_and_silver_problems\badmilk\badmilk.cpp(72): warning C4018: '<': signed/unsigned mismatch
+c:\users\neil song\onedrive\documents\visual studio projects\usaco_bronze_and_silver_problems\badmilk\badmilk.cpp(82): warning C4018: '<': signed/unsigned mismatch
+c:\users\neil song\onedrive\documents\visual studio projects\usaco_bronze_and_silver_problems\badmilk\badmilk.cpp(105): warning C4018: '<': signed/unsigned mismatch
+  badmilk.vcxproj -> C:\Users\Neil Song\OneDrive\Documents\Visual Studio Projects\USACO_Bronze_and_Silver_Problems\Debug\badmilk.exe

@@ -1,0 +1,5 @@
+﻿  Week5.cpp
+c:\users\osx_h\source\repos\usaco_bronze_and_silver_problems\week5\week5.cpp(46): warning C4018: '<': signed/unsigned mismatch
+c:\users\osx_h\source\repos\usaco_bronze_and_silver_problems\week5\week5.cpp(57): warning C4018: '<': signed/unsigned mismatch
+c:\users\osx_h\source\repos\usaco_bronze_and_silver_problems\week5\week5.cpp(65): warning C4018: '<': signed/unsigned mismatch
+  Week5.vcxproj -> C:\Users\OSX_H\source\repos\USACO_Bronze_and_Silver_Problems\Debug\Week5.exe

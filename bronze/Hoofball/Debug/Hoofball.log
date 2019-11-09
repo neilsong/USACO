@@ -1,0 +1,6 @@
+﻿  Hoofball.cpp
+c:\users\neil song\onedrive\documents\visual studio projects\usaco_bronze_and_silver_problems\hoofball\hoofball.cpp(61): warning C4018: '<': signed/unsigned mismatch
+c:\users\neil song\onedrive\documents\visual studio projects\usaco_bronze_and_silver_problems\hoofball\hoofball.cpp(62): warning C4018: '<': signed/unsigned mismatch
+c:\users\neil song\onedrive\documents\visual studio projects\usaco_bronze_and_silver_problems\hoofball\hoofball.cpp(70): warning C4018: '<': signed/unsigned mismatch
+c:\users\neil song\onedrive\documents\visual studio projects\usaco_bronze_and_silver_problems\hoofball\hoofball.cpp(76): warning C4018: '<': signed/unsigned mismatch
+  Hoofball.vcxproj -> C:\Users\Neil Song\OneDrive\Documents\Visual Studio Projects\USACO_Bronze_and_Silver_Problems\Debug\Hoofball.exe

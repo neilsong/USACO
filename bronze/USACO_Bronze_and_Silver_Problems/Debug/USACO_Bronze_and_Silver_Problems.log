@@ -1,0 +1,6 @@
+﻿  USACO_Bronze_and_Silver_Problems.cpp
+c:\users\osx_h\onedrive\documents\visual studio projects\usaco_bronze_and_silver_problems\usaco_bronze_and_silver_problems\usaco_bronze_and_silver_problems.cpp(12): warning C4018: '<': signed/unsigned mismatch
+c:\users\osx_h\onedrive\documents\visual studio projects\usaco_bronze_and_silver_problems\usaco_bronze_and_silver_problems\usaco_bronze_and_silver_problems.cpp(159): warning C4018: '<': signed/unsigned mismatch
+c:\users\osx_h\onedrive\documents\visual studio projects\usaco_bronze_and_silver_problems\usaco_bronze_and_silver_problems\usaco_bronze_and_silver_problems.cpp(185): error C2084: function 'int main(void)' already has a body
+  c:\users\osx_h\onedrive\documents\visual studio projects\usaco_bronze_and_silver_problems\usaco_bronze_and_silver_problems\usaco_bronze_and_silver_problems.cpp(126): note: see previous definition of 'main'
+c:\users\osx_h\onedrive\documents\visual studio projects\usaco_bronze_and_silver_problems\usaco_bronze_and_silver_problems\usaco_bronze_and_silver_problems.cpp(213): warning C4018: '<': signed/unsigned mismatch

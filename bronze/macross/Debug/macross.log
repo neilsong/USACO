@@ -1,0 +1,4 @@
+﻿  macross.cpp
+c:\users\neil song\onedrive\documents\visual studio projects\usaco_bronze_and_silver_problems\macross\macross.cpp(37): warning C4018: '<': signed/unsigned mismatch
+  LINK : C:\Users\Neil Song\OneDrive\Documents\Visual Studio Projects\USACO_Bronze_and_Silver_Problems\Debug\macross.exe not found or not built by the last incremental link; performing full link
+  macross.vcxproj -> C:\Users\Neil Song\OneDrive\Documents\Visual Studio Projects\USACO_Bronze_and_Silver_Problems\Debug\macross.exe

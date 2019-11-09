@@ -4,7 +4,7 @@
 #include <algorithm>
 using namespace std;
 
-struct S {
+struct S {	
 	long long next, prev,cur;
 	bool nb, pb;
 };

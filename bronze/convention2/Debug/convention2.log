@@ -1,0 +1,4 @@
+﻿  Source.cpp
+c:\users\osx_h\onedrive\documents\visual studio projects\usaco_bronze_and_silver_problems\convention2\source.cpp(28): warning C4018: '<': signed/unsigned mismatch
+c:\users\osx_h\onedrive\documents\visual studio projects\usaco_bronze_and_silver_problems\convention2\source.cpp(31): error C2065: 'S': undeclared identifier
+c:\users\osx_h\onedrive\documents\visual studio projects\usaco_bronze_and_silver_problems\convention2\source.cpp(34): error C2059: syntax error: ']'

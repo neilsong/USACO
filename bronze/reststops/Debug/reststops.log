@@ -1,0 +1,5 @@
+﻿  Source.cpp
+c:\users\osx_h\onedrive\documents\visual studio projects\usaco_bronze_and_silver_problems\reststops\source.cpp(15): warning C4244: 'argument': conversion from 'double' to 'const unsigned int', possible loss of data
+c:\users\osx_h\onedrive\documents\visual studio projects\usaco_bronze_and_silver_problems\reststops\source.cpp(30): warning C4244: 'argument': conversion from 'double' to 'const unsigned int', possible loss of data
+c:\users\osx_h\onedrive\documents\visual studio projects\usaco_bronze_and_silver_problems\reststops\source.cpp(32): warning C4244: 'argument': conversion from 'double' to 'const unsigned int', possible loss of data
+  reststops.vcxproj -> C:\Users\OSX_H\OneDrive\Documents\Visual Studio Projects\USACO_Bronze_and_Silver_Problems\Debug\reststops.exe

@@ -1,0 +1,4 @@
+﻿  Source.cpp
+c:\users\osx_h\onedrive\documents\visual studio projects\usaco_bronze_and_silver_problems\measurement\source.cpp(45): warning C4018: '<': signed/unsigned mismatch
+c:\users\osx_h\onedrive\documents\visual studio projects\usaco_bronze_and_silver_problems\measurement\source.cpp(54): warning C4018: '<': signed/unsigned mismatch
+  measurement.vcxproj -> C:\Users\OSX_H\OneDrive\Documents\Visual Studio Projects\USACO_Bronze_and_Silver_Problems\Debug\measurement.exe

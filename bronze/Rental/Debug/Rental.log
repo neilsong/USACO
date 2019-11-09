@@ -1,0 +1,26 @@
+﻿  Source.cpp
+c:\users\osx_h\onedrive\documents\visual studio projects\usaco_bronze_and_silver_problems\rental\source.cpp(18): warning C4244: 'argument': conversion from '__int64' to 'const unsigned int', possible loss of data
+c:\users\osx_h\onedrive\documents\visual studio projects\usaco_bronze_and_silver_problems\rental\source.cpp(19): warning C4244: 'argument': conversion from '__int64' to 'const unsigned int', possible loss of data
+c:\users\osx_h\onedrive\documents\visual studio projects\usaco_bronze_and_silver_problems\rental\source.cpp(20): warning C4244: 'argument': conversion from '__int64' to 'const unsigned int', possible loss of data
+c:\users\osx_h\onedrive\documents\visual studio projects\usaco_bronze_and_silver_problems\rental\source.cpp(21): warning C4244: 'argument': conversion from '__int64' to 'const unsigned int', possible loss of data
+c:\users\osx_h\onedrive\documents\visual studio projects\usaco_bronze_and_silver_problems\rental\source.cpp(40): warning C4244: 'argument': conversion from '__int64' to 'const unsigned int', possible loss of data
+c:\users\osx_h\onedrive\documents\visual studio projects\usaco_bronze_and_silver_problems\rental\source.cpp(41): warning C4244: 'argument': conversion from '__int64' to 'const unsigned int', possible loss of data
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\numeric(26): warning C4244: '=': conversion from '__int64' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\numeric(36): note: see reference to function template instantiation '_Ty std::accumulate<_InIt,_Ty,std::plus<void>>(const _InIt,const _InIt,_Ty,_Fn)' being compiled
+          with
+          [
+              _Ty=int,
+              _InIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<__int64>>>,
+              _Fn=std::plus<void>
+          ]
+  c:\users\osx_h\onedrive\documents\visual studio projects\usaco_bronze_and_silver_problems\rental\source.cpp(38): note: see reference to function template instantiation '_Ty std::accumulate<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<__int64>>>,int>(const _InIt,const _InIt,_Ty)' being compiled
+          with
+          [
+              _Ty=int,
+              _InIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<__int64>>>
+          ]
+  Rental.vcxproj -> C:\Users\OSX_H\OneDrive\Documents\Visual Studio Projects\USACO_Bronze_and_Silver_Problems\Debug\Rental.exe
