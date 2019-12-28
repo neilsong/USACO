@@ -66,7 +66,7 @@ int main(void) {
 			deltax = prefinal.x - curcoord.x; deltay = prefinal.y - curcoord.y;
 			if (prefinal.direct == 0) prefinal = { prefinal.x, prefinal.y, prefinal.direct + 3 };
 			else prefinal = { prefinal.x, prefinal.y, prefinal.direct - 1 };
-			prefinal = { curcoord.x + deltay, curcoord.y - deltax, prefinal.direct };
+			prefinal = { curcoord.x - deltay, curcoord.y + deltax, prefinal.direct };
 			if (curcoord.direct == 0) prefinal = { prefinal.x, prefinal.y + 1, prefinal.direct };
 			if (curcoord.direct == 1) prefinal = { prefinal.x + 1,prefinal.y, prefinal.direct };
 			if (curcoord.direct == 2) prefinal = { prefinal.x, prefinal.y - 1 , prefinal.direct };
@@ -82,7 +82,7 @@ int main(void) {
 			deltax = prefinal.x - curcoord.x; deltay = prefinal.y - curcoord.y;
 			if (prefinal.direct == 0) prefinal = { prefinal.x, prefinal.y, prefinal.direct + 3 };
 			else prefinal = { prefinal.x, prefinal.y, prefinal.direct - 1 };
-			prefinal = { curcoord.x - deltay, curcoord.y + deltax, prefinal.direct };
+			prefinal = { curcoord.x + deltay, curcoord.y - deltax, prefinal.direct };
 			if (curcoord.direct == 0) prefinal = { prefinal.x, prefinal.y + 1, prefinal.direct };
 			if (curcoord.direct == 1) prefinal = { prefinal.x + 1,prefinal.y, prefinal.direct };
 			if (curcoord.direct == 2) prefinal = { prefinal.x, prefinal.y - 1 , prefinal.direct };
