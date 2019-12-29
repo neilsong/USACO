@@ -3,6 +3,7 @@ using namespace std;
 vector<int> parent, sizes;
 
 
+
 //path compression find
 int root(int v) {
 	if (v == parent[v])
@@ -27,13 +28,14 @@ int main() {
 
 	int n, m;
 	cin >> n >> m;
+	parent.resize(2 * n); sizes.assign(2 * n,1);
 	for (int i = 0; i < m; i++) {
 		int a, b; char c;
 		cin >> a >> b >> c;
 		bool torl;
 		c == 'T' ? torl = 1: torl = 0;
+		
 	}
-
 
 
 	return 0;
