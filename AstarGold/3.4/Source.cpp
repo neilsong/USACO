@@ -38,8 +38,37 @@ using namespace std;
 
 //base case 
 
+vector<pair<int, int>> intervals;
+vector<int> c, dp;
+
+
 int main(void) {
 	int n, m, e;
 	cin >> n >> m >> e;
-	
+	dp.resize(n);
+	for (int i = 0; i < n; i++) {
+		int s, e, cost;
+		cin >> s >> e >> cost;
+		intervals.push_back({ s,e });
+		c.push_back(cost);
+	}
+	sort(intervals.begin(), intervals.end());
+	int startind = 0;
+	for (int i = 0; i < n; i++) {
+		if (intervals[i].first == m) dp[i] = c[i];
+		else startind = 1;
+	}
+	int mx = -1;
+	for (int i = startind+1; i < n; i++) {
+		dp[i] = INT_MAX;
+		for (int j = 0; j < i && intervals[i].first <= intervals[j].second && intervals[j].second+1 <= intervals[i].second; j++) {
+			dp[i] = min(dp[i], c[i] + dp[j]);
+		}
+		if(dp[i] != INT_MAX) mx = max(mx, dp[i]);
+	}
+	int ans = INT_MAX;
+	for (int i = 0; i < n; i++) {
+		if (intervals[i].second == e) ans = min(ans, dp[i]);
+	}
+	cout << ans << endl;
 }
