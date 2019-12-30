@@ -29,13 +29,28 @@ int main() {
 	int n, m;
 	cin >> n >> m;
 	parent.resize(2 * n); sizes.assign(2 * n,1);
+	iota(parent.begin(), parent.end(), 0);
+	set<int> nodes;
 	for (int i = 0; i < m; i++) {
 		int a, b; char c;
-		cin >> a >> b >> c;
-		bool torl;
-		c == 'T' ? torl = 1: torl = 0;
-		
+		cin >> a >> b >> c; a--; b--;
+		nodes.insert(a); nodes.insert(b);
+		if (c == 'T') {
+			join(2 * a, 2 * b);
+			join(2 * a+1, 2 * b+1);
+		}
+		else {
+			join(2 * a + 1, 2 * b);
+			join(2 * a, 2 * b + 1);
+		}
+		for (auto j : nodes) {
+			if (root(2 * j) == root(2 * j + 1)) { 
+				cout << i << endl; return 0; 
+			}
+		}
 	}
+	cout << m << endl;
+
 
 
 	return 0;
