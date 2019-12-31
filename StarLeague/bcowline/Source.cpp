@@ -4,25 +4,47 @@ using namespace std;
 vector<vector<string>> mat;
 string orig = "";
 
-		//mat[i][j] += min(orig[i] + f(i + 1, j), orig[j] + f(i, j - 1));
 
 
 int main(void) {
 	int n;
 	cin >> n;
-	mat.resize(2);
-	mat[0].resize(n);
-	mat[1].resize(n);
 	for (int i = 0; i < n; i++) {
 		char add;
 		cin >> add;
 		orig += add;
-		mat[0][i] += add;
 	}
-	for (int i = 1; i < n; i++) {
-		for (int j = 0; j < n-1; j++) {
-			mat[i % 2][j] = min(orig[j] + mat[abs(i - 1) % 2][j+1], orig[orig.length() - j-1] + mat[abs(i - 1) % 2][j]);
+	int i = 0, j = n - 1;
+	string final = "";
+	while (i < j) {
+		if (orig[i] < orig[j]) {
+			final += orig[i];
+			i++;
+		}
+		else if (orig[i] == orig[j]) {
+			int ti = i+1, tj = j-1;
+			while (ti < tj && orig[ti] == orig[tj]) {
+				ti++;
+				if (orig[ti] != orig[tj]) break;
+				ti--;
+				tj--;
+				if (orig[ti] != orig[tj]) break;
+				ti++;
+			}
+			if (orig[ti] < orig[tj]) {
+				final += orig[i];
+				i++;
+			}
+			else {
+				final += orig[j];
+				j--;
+			}
+		}
+		else {
+			final += orig[j];
+			j--;
 		}
 	}
-	cout << mat[n-1%2][0] << endl;
+	final += orig[i];
+	cout << final;
 }

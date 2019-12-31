@@ -3,22 +3,12 @@ using namespace std;
 #define MAX 500
 
 int p, c, k, q;
-long long mat[MAX][MAX];
-bool negcycle = 0;
 
+int V, E;
+vector<vector<pair<int, int>>> adj;
+vector <int> visited, dist;
+priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>> pq;
 
-void solve()
-{
-	
-	// Floyd-Warshall all shortest path
-	for (int i = 0; i < p; i++)
-		for (int j = 0; j < p; j++)
-			if (mat[j][i])
-				for (int k = 0; k < p; k++)
-					if (mat[i][k] && (!mat[j][k] || mat[j][k] > mat[j][i] + mat[i][k]))
-						mat[j][k] = mat[j][i] + mat[i][k];
-	for (int i = 0; i < p; i++) mat[i][i] = 0;
-}
 int main(void) {
 	cin >> p >> c >> k >> q;
 	for (int i = 0; i < p; i++) {
@@ -31,7 +21,6 @@ int main(void) {
 		cin >> a >> b >> d;
 		mat[--a][--b] = d;
 	}
-	solve();
 	long ans = 0;
 	int num = 0;
 	for (int i = 0; i < q; i++) {
