@@ -15,14 +15,12 @@ int main() {
 		int size, pos = 0;
 		cin >> size;
 		if (size < m) { pos = m - size; size = m; }
-		while (size < n && pos < m) {
-			pos = p[pos];
+		while (size < n) {
+			if(pos < m) pos = p[pos];
 			size++;
 			pos++;
-			if (size == n) {
-				pos = p[pos];
-			}
 		}
-		cout << deck[pos];
+		if (pos < m)  pos = p[pos];
+		cout << deck[pos] << endl;
 	}
 }
