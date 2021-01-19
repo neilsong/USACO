@@ -1,0 +1,108 @@
+#include <bits/stdc++.h>
+using namespace std;
+
+int inc_exc[] = { -1,1,-1,1,-1,1 };
+
+struct S5 {
+	int n;
+	int v[5];
+};
+
+bool operator< (const S5 &a, const S5 &b) {
+	for (int i = 0; i < 5; i++) {
+		if (a.v[i] < b.v[i]) return true;
+		if (a.v[i] > b.v[i]) return false;
+	}
+	return false;
+}
+
+S5 get_subset(S5& a, int x) {
+	S5 result = { 0,{0,0,0,0,0} };
+	for (int i = 0; i < 5; i++) {
+		if ((1 << i) & x) result.v[result.n++] = a.v[i];
+	}
+	return result;
+}
+
+long long n;
+map<S5, long long> ocur;
+
+int main(void) {
+	ifstream cin("cowpatibility.in");
+	ofstream cout("cowpatibility.out");
+	cin >> n;
+
+	for (int i = 0; i < n; i++) {
+		S5 a = { 5,{0,0,0,0,0} };
+		for (int j = 0; j < 5; j++) {
+			cin >> a.v[j];
+		}
+		sort(a.v, a.v + 5);
+		if (ocur.empty()) {
+			ocur.insert({ get_subset(a,1), 0 });
+		}
+		for (int x = 1; x < 32; x++) ocur[get_subset(a, x)]++;
+	}
+
+	long long ans = n * (n - 1) / 2;
+	for (auto& p : ocur) {
+		ans -= inc_exc[p.first.n] * p.second * (p.second - 1) / 2;
+	}
+	cout << ans << endl;
+}
+
+//#include <iostream>
+//#include <fstream>
+//#include <map>
+//#include <algorithm>
+//using namespace std;
+//
+//long long N, inc_exc[] = { -1, +1, -1, +1, -1, +1 };
+//
+// a set of up to 5 ints
+//struct S5 {
+//	int n;
+//	int v[5]; // zero-pad if not used
+//};
+//
+//S5 A[100000];
+//
+//bool operator< (const S5& a, const S5& b)
+//{
+//	for (int j = 0; j < 5; j++) {
+//		if (a.v[j] < b.v[j]) return true;
+//		if (a.v[j] > b.v[j]) return false;
+//	}
+//	return false;
+//}
+//
+//S5 get_subset(S5& a, int x)
+//{
+//	S5 result = { 0, {0,0,0,0,0} };
+//	for (int j = 0; j < 5; j++)
+//		if ((1 << j) & x) result.v[result.n++] = a.v[j];
+//	return result;
+//}
+//
+//map<S5, int> subsets;
+//
+//int main(void)
+//{
+//	ifstream fin("cowpatibility.in");
+//	fin >> N;
+//	for (int i = 0; i < N; i++) {
+//		A[i].n = 5;
+//		for (int j = 0; j < 5; j++)
+//			fin >> A[i].v[j];
+//		sort(A[i].v, A[i].v + 5);
+//		for (int x = 1; x < 32; x++) subsets[get_subset(A[i], x)]++;
+//	}
+//
+//	long long answer = N * (N - 1) / 2;
+//	for (auto& p : subsets)
+//		answer -= inc_exc[p.first.n] * p.second * (p.second - 1) / 2;
+//
+//	ofstream fout("cowpatibility.out");
+//	fout << answer << "\n";
+//	return 0;
+//}
