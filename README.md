@@ -27,3 +27,7 @@ A VS Solution with my solutions & algorithms from an Alpha Star Gold winter sess
 ## Star League Gold
 
 A VS Solution with my solutions from a Star League Gold summer session
+
+## Templates
+
+A collection of my Visual Studio Project Templates
